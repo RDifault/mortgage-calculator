@@ -2,6 +2,7 @@
 import { useState } from "react";
 import calc from "./Calc";
 import iconCalculator from "./assets/icon-calculator.svg";
+import emptyIllustration from "./assets/illustration-empty.svg";
 
 function App() {
   const [error, setError] = useState({
@@ -137,7 +138,7 @@ function App() {
     return (
       <div className=" bg-cslate-900 mx-auto items-center justify-center flex flex-col h-[calc(100vh-350px)] md:h-auto md:w-[400px] md:rounded-xl md:rounded-tl-none md:rounded-bl-[3rem] ">
         <img
-          src="./src/assets/illustration-empty.svg"
+          src={emptyIllustration}
           alt=""
           className="w-[150px] h-[150px]"
         />
