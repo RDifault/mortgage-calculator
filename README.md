@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://rdifault.github.io/mortgage-calculator/
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-mortgage-calculator-using-react-vite-tailwind-jrU_Z1FJjo
 - Live Site URL: https://rdifault.github.io/mortgage-calculator/
 
 ## My process
