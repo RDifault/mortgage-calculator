@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
 import calc from "./Calc";
+import iconCalculator from "./assets/icon-calculator.svg";
 
 function App() {
   const [error, setError] = useState({
@@ -322,7 +323,7 @@ function App() {
             >
               <div className="flex items-center justify-center">
                 <img
-                  src="./src/assets/icon-calculator.svg"
+                  src={iconCalculator}
                   alt=""
                   className="mr-2"
                 />
